@@ -1,0 +1,118 @@
+[General]
+Close After Last=true
+Config Revision=10
+Days Meta Infos=30
+Last Session=
+Modified Notification=true
+Quick Open Search Mode=0
+Recent File List Entry Count=10
+Restore Window Configuration=true
+Save Meta Infos=true
+Show Full Path in Title=true
+Show Menu Bar=false
+Show Status Bar=true
+Show Tab Bar=true
+Startup Session=new
+
+[KTextEditor Document]
+Allow End of Line Detection=true
+BOM=false
+Backup Local=false
+Backup Prefix=
+Backup Remote=false
+Backup Suffix=~
+Encoding=UTF-8
+End of Line=0
+Indent On Backspace=true
+Indent On Tab=true
+Indent On Text Paste=false
+Indentation Mode=normal
+Indentation Width=4
+Keep Extra Spaces=false
+Line Length Limit=4096
+Newline at End of File=true
+On-The-Fly Spellcheck=false
+Overwrite Mode=false
+PageUp/PageDown Moves Cursor=false
+Remove Spaces=0
+ReplaceTabsDyn=true
+Show Spaces=0
+Show Tabs=true
+Smart Home=true
+Swap Directory=
+Swap File Mode=1
+Swap Sync Interval=15
+Tab Handling=2
+Tab Width=4
+Trailing Marker Size=1
+Word Wrap=false
+Word Wrap Column=80
+
+[KTextEditor Editor]
+Encoding Prober Type=1
+Fallback Encoding=ISO-8859-15
+
+[KTextEditor Renderer]
+Animate Bracket Matching=true
+Schema=KDE
+Show Indentation Lines=false
+Show Whole Bracket Expression=false
+Word Wrap Marker=false
+
+[KTextEditor View]
+Allow Mark Menu=true
+Auto Brackets=false
+Auto Center Lines=0
+Auto Completion=false
+Backspace Remove Composed Characters=false
+Bookmark Menu Sorting=0
+Chars To Enclose Selection=
+Default Mark Type=1
+Dynamic Word Wrap=false
+Dynamic Word Wrap Align Indent=80
+Dynamic Word Wrap At Static Marker=false
+Dynamic Word Wrap Indicators=1
+Fold First Line=false
+Folding Bar=false
+Folding Preview=false
+Icon Bar=false
+Input Mode=0
+Keyword Completion=false
+Line Modification=true
+Line Numbers=true
+Maximum Search History Size=100
+Mouse Paste At Cursor Position=false
+Persistent Selection=false
+Scroll Bar Marks=false
+Scroll Bar Mini Map All=false
+Scroll Bar Mini Map Width=60
+Scroll Bar MiniMap=true
+Scroll Bar Preview=true
+Scroll Past End=false
+Search/Replace Flags=140
+Show Line Count=false
+Show Scrollbars=0
+Show Word Count=false
+Smart Copy Cut=false
+Vi Input Mode Steal Keys=false
+Vi Relative Line Numbers=false
+Word Completion=false
+Word Completion Minimal Word Length=3
+Word Completion Remove Tail=false
+
+[KTextEditor::Search]
+Replace History=\\, ,71\\,71\\,71
+Search History=</div><div class="ability-new">,35\\,38\\,41,49\\,54\\,59,hide,setHighlightedWindow,hover,0.3,0,setElev,setEle
+
+[MainWindow]
+Height 768=698
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABVAAAALZAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1360=1314
+Window-Maximized 1080x1920=true
+Window-Maximized 1080x2560=true
+Window-Maximized 768x1360=true
+
+[Notification Messages]
+HideMenuBarWarning=false

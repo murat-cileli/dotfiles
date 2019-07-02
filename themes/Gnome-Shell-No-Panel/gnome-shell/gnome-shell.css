@@ -1,0 +1,24 @@
+#panel, #panel .panel-button, #panel .panel-button .system-status-icon  {
+    height: 1px;
+    color: rgba(255, 255, 255, 0);
+}
+
+#panel #panelActivities.panel-button:active, #panel #panelActivities.panel-button:overview, #panel #panelActivities.panel-button:focus, #panel #panelActivities.panel-button:checked {
+  box-shadow: none;
+  border: none;
+}
+
+#panel .panel-corner:active, #panel .panel-corner:overview, #panel .panel-corner:focus {
+  -panel-corner-border-color: black;
+}
+
+#appMenu, #panel .panel-button .app-menu-icon {
+    width: 0; 
+    height: 0;    
+    color: rgba(0, 0, 0, 0);
+}
+
+#appMenu {
+    spinner-image: url("resource:///");
+}
+

@@ -1,0 +1,86 @@
+Height 1080=1010
+Height 768=487
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAClAAADzPwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAmAAADzAAAAFoBAAADAAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAADRwAAAL78AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAADRwAAAAoBAAADAAAC+AAAA8wAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+Width 1360=891
+Width 1920=926
+
+[CompactMode]
+FontWeight=50
+IconSize=22
+
+[Desktop Entry]
+DefaultProfile=Profile 10.profile
+
+[DetailsMode]
+ExpandableFolders=false
+FontWeight=50
+IconSize=22
+
+[DownloadDialog Settings]
+Height 1080=488
+Width 1920=700
+
+[Favorite Profiles]
+Favorites=
+
+[General]
+ConfirmClosingMultipleTabs=false
+ShowCopyMoveMenu=true
+ShowFullPath=true
+ShowFullPathInTitlebar=true
+ShowSelectionToggle=false
+ShowSpaceInfo=false
+ShowZoomSlider=false
+UseTabForSwitchingSplitView=true
+Version=200
+ViewPropsTimestamp=2019,1,26,3,45,56
+
+[IconsMode]
+FontWeight=50
+IconSize=48
+
+[KPropertiesDialog]
+Height 1080=464
+Height 768=550
+Width 1360=436
+Width 1920=632
+
+[MainWindow]
+Height 1080=1010
+Height 768=698
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAB/AAACdvwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAABEAAACdgAAAFoBAAADAAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAADRwAAAL78AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAADRwAAAAoBAAADAAAEogAAAnYAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1360=1314
+Width 1920=926
+Width 2560=942
+
+[Notification Messages]
+ConfirmDelete=true
+ConfirmEmptyTrash=true
+ShowVcsRestartInformation=false
+
+[Open-with settings]
+CompletionMode=1
+History=kate,code,gw,kat,gnu,k,gwe,c,ar,ka
+
+[PlacesPanel]
+IconSize=22
+
+[PreviewSettings]
+Plugins=appimagethumbnail,imagethumbnail,jpegthumbnail,windowsexethumbnail,windowsimagethumbnail,svgthumbnail
+
+[SettingsDialog]
+Height 1080=476
+Height 768=433
+Width 1360=540
+Width 1920=561
+
+[ViewPropertiesDialog]
+Height 1080=676
+Height 768=690
+Width 1360=360
+Width 1920=332
+
+[kuick-copy]
+Paths[$e]=$HOME/

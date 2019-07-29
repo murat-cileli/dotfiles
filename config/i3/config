@@ -9,18 +9,21 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod4
+set $mod Mod1
 
 #workspace_layout tabbed
 #title_align left
-for_window [class=".*"] title_format "<b>%title</b>"
+#for_window [class=".*"] title_format "<b>%title</b>"
 
-for_window [class="^.*"] border pixel 4 
+for_window [class=".*"] border pixel 4 
 gaps inner 15
 gaps outer 5
 
-client.unfocused        #9db196 #9db196 #9db196 #9db196   #9db196
-client.focused		#e4a7a4 #e4a7a4 #e4a7a4 #e4a7a4   #e4a7a4
+#client.focused		#e4a7a4 #e4a7a4 #e4a7a4 #e4a7a4 #e4a7a4
+#client.unfocused       #9db196 #9db196 #9db196 #9db196 #9db196
+
+client.focused		#d0c992 #d0c992 #d0c992 #d0c992 #d0c992
+client.unfocused	#8ea291 #8ea291 #8ea291 #8ea291 #8ea291
 
 focus_follows_mouse no
 #smart_borders on
@@ -35,7 +38,7 @@ focus_follows_mouse no
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font DejaVu Sans Mono 8
+font Source Code Pro 11
 
 # Before i3 v4.8, we used to recommend this one as the default:
 # font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
@@ -48,31 +51,35 @@ font DejaVu Sans Mono 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec konsole
-bindsym $mod+Shift+Return exec dolphin
+bindsym $mod+Return exec xfce4-terminal
+bindsym $mod+Shift+Return exec thunar
 bindsym $mod+Tab workspace next
 bindsym $mod+Shift+Tab workspace prev
 bindsym $mod+Control+Right workspace next
 bindsym $mod+Control+Left workspace prev
 bindsym $mod+Shift+f exec flameshot gui
-bindsym $mod+Shift+w exec copyq toggle
+bindsym Mod4+w exec copyq toggle
+bindsym Mod4+f exec flameshot gui
 bindsym $mod+Shift+Control+s exec i3lock -c 000000 && systemctl suspend
+bindsym Mod4+p exec lxrandr
+bindsym Mod4+1 exec xfce4-terminal
+bindsym Mod4+t exec xfce4-terminal -e "htop"
 
 # kill focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+Escape kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
+bindsym Mod4+a exec dmenu_run
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+scedilla focus right
+bindsym $mod+a focus left
+bindsym $mod+s focus down
+bindsym $mod+w focus up
+bindsym $mod+d focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -102,8 +109,8 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
+bindsym $mod+x layout stacked
+bindsym $mod+q layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
@@ -113,7 +120,7 @@ bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
 
 # focus the parent container
-bindsym $mod+a focus parent
+#bindsym $mod+a focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
@@ -211,5 +218,5 @@ bindsym XF86WebCam exec i3lock -c 000000
 exec_always --no-startup-id /home/user/xrandr-lcd.sh
 exec --no-startup-id dunst
 exec --no-startup-id libinput-gestures
-exec --no-startup-id /usr/bin/feh --bg-scale /home/user/Pictures/Wallpaper/blocks_and_crickets.png
+exec --no-startup-id /usr/bin/feh --bg-fill /home/user/Pictures/Wallpaper/landscape_abstraction.jpg
 exec --no-startup-id /usr/bin/bash /home/user/i3-startup.sh

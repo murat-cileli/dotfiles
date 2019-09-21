@@ -9,7 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod1
+set $mod Mod4
 
 #workspace_layout tabbed
 #title_align left
@@ -52,34 +52,26 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec xfce4-terminal
-bindsym $mod+Shift+Return exec thunar
+bindsym $mod+Shift+Return exec nautilus
 bindsym $mod+Tab workspace next
 bindsym $mod+Shift+Tab workspace prev
 bindsym $mod+Control+Right workspace next
 bindsym $mod+Control+Left workspace prev
 bindsym $mod+Shift+f exec flameshot gui
-bindsym Mod4+w exec copyq toggle
-bindsym Mod4+f exec flameshot gui
+bindsym $mod+Shift+w exec copyq toggle
 bindsym $mod+Shift+Control+s exec i3lock -c 000000 && systemctl suspend
-bindsym Mod4+p exec lxrandr
-bindsym Mod4+1 exec xfce4-terminal
-bindsym Mod4+t exec xfce4-terminal -e "htop"
+bindsym $mod+Shift+p exec lxrandr
+bindsym $mod+Shift+t exec xfce4-terminal -e "htop"
 
 # kill focused window
 bindsym $mod+Escape kill
 
 # start dmenu (a program launcher)
-bindsym Mod4+a exec dmenu_run
+bindsym $mod+a exec dmenu_run
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
-
-# change focus
-bindsym $mod+a focus left
-bindsym $mod+s focus down
-bindsym $mod+w focus up
-bindsym $mod+d focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -210,13 +202,13 @@ bindsym XF86AudioPlay exec playerctl play
 bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
-bindsym $mod+Shift+F1 exec /home/user/xrandr-lcd.sh
-bindsym $mod+Shift+F2 exec /home/user/xrandr-lg.sh
+bindsym $mod+Shift+F1 exec /home/user/scripts/xrandr-lcd.sh
+bindsym $mod+Shift+F2 exec /home/user/scripts/xrandr-lg.sh
 
 bindsym XF86WebCam exec i3lock -c 000000
 
-exec_always --no-startup-id /home/user/xrandr-lcd.sh
+exec_always --no-startup-id /home/user/scripts/xrandr-lcd.sh
 exec --no-startup-id dunst
 exec --no-startup-id libinput-gestures
-exec --no-startup-id /usr/bin/feh --bg-fill /home/user/Pictures/Wallpaper/landscape_abstraction.jpg
-exec --no-startup-id /usr/bin/bash /home/user/i3-startup.sh
+exec --no-startup-id /usr/bin/feh --bg-fill /home/user/Pictures/Wallpaper/blocks_and_crickets.png
+exec --no-startup-id /usr/bin/bash /home/user/scripts/i3-startup.sh

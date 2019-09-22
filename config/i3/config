@@ -15,7 +15,7 @@ set $mod Mod4
 #title_align left
 #for_window [class=".*"] title_format "<b>%title</b>"
 
-for_window [class=".*"] border pixel 4 
+for_window [class=".*"] border pixel 2
 gaps inner 15
 gaps outer 5
 
@@ -26,7 +26,7 @@ client.focused		#d0c992 #d0c992 #d0c992 #d0c992 #d0c992
 client.unfocused	#8ea291 #8ea291 #8ea291 #8ea291 #8ea291
 
 focus_follows_mouse no
-#smart_borders on
+smart_borders on
 #smart_gaps on
 
 #default_border none

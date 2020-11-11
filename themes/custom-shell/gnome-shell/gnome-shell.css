@@ -37,3 +37,5 @@
 #panel:checked .system-status-icon {
     icon-shadow: black 0 2px 2px;
 }
+
+#panel .clock-display { color:  rgba(0, 0, 0, 0); }

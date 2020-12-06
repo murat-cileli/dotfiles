@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=GNOME Hide Panel
+Exec=/home/user/scripts/gnome-hide-panel.sh
